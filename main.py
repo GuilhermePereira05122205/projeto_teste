@@ -6,7 +6,7 @@ app = Flask(__name__)
 def teste():
     return "ola"
 
-@app.get("teste2")
+@app.get("teste3")
 def teste2():
     return "teste"
 
